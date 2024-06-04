@@ -27,6 +27,19 @@ public class Main {
         mercedes.speed = 30;
         System.out.println(mercedes.model + " Hızı : " + mercedes.speed);
 
+        //****
+
+        CarTwo car1 = new CarTwo("BMW",20);
+        System.out.println(car1.model);
+        car1.printInfo();
+
+        CarTwo car2 = new CarTwo();
+        car2.color="red" ;
+
+
+
+
+
     }
 }
 
