@@ -25,7 +25,8 @@ public class Calisan {
         this.age = age;
     }
 
-    public void login(){
-        System.out.println("sisteme giriş yaptı");
+    public String login(){
+
+        return "sisteme giriş yaptı";
     }
 }

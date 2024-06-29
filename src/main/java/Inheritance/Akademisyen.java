@@ -15,5 +15,7 @@ public class Akademisyen extends Calisan{
          super(name,age); // Ana sınıfının constructorunu çağırmak için
          this.departman=departman;
      }
+
+
 }
 
